@@ -8,7 +8,7 @@ Problem 4 in Top Interview Questions (medium)
     n = number of characters in string
     
 Time and Space Complexity
-    => Space: O(1)
+    => Space: O(n)
     => Time: O(n)
     
 ```java
