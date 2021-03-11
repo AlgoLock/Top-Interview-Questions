@@ -14,24 +14,23 @@ Time and Space Complexity
 ```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-
-        HashSet<Character> seen = new HashSet<Character>();
-        int sow =0, eow =0, maxlen = 0;
+        
+        HashMap<Character, Integer> seen = new HashMap<>();
+        int sow = 0, eow = 0, maxlen =0;
+        
         char [] carr = s.toCharArray();
         int len = carr.length;
         
         while(eow < len){
-            while(seen.contains(carr[eow])){
-                //dupicate seen at carr[eow]
-                seen.remove(carr[sow]);
-                sow++;
+            //duplicate case
+            if(seen.containsKey(carr[eow]) && seen.get(carr[eow]) >= sow){
+                sow = seen.get(carr[eow])+1;
+            }else{
+                //unique character
+                maxlen = Math.max(maxlen, eow-sow+1);
             }
-            while(eow < len && !seen.contains(carr[eow])){
-                //unique value seen at carr[eow]
-                seen.add(carr[eow]);
-                eow++;
-                maxlen = Math.max(maxlen, seen.size());
-            }
+            seen.put(carr[eow], eow);
+             eow++;  
         }
         return maxlen;
     }
