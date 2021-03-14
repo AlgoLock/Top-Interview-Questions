@@ -1,9 +1,13 @@
+**Problem 2 in Top Interview Questions (medium)**
 
-
-Problem 2 in Top Interview Questions (medium)
- 
  Leetcode Problem 73: Set Matrix Zeros
-     
+
+Problem Link: https://leetcode.com/problems/set-matrix-zeroes/
+
+Explanation: https://www.youtube.com/watch?v=rZ6IhefcrTo&t=20s&ab_channel=CodeBrosIO
+
+
+
  Java Solution: In Place
    n = # rows in matrix
    m = # columns in matrix

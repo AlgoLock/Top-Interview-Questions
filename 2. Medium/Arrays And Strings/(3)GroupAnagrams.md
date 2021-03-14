@@ -1,9 +1,14 @@
+**Problem 3 in Top Interview Questions (medium)**
+
+Leetcode Problem 49: Group Anagrams
+
+Problem Link: https://leetcode.com/problems/group-anagrams/
+
+Explanation: https://www.youtube.com/watch?v=TJm2sAyogbg&t=16s&ab_channel=CodeBrosIO
 
 
-Problem 3 in Top Interview Questions (medium)
 
- Leetcode Problem 49: Group Anagrams
-     
+
  Java Solution: 
     n = number of strings
     k = length of longest string 
@@ -12,6 +17,7 @@ Time and Space Complexity
     => Space: O(n)
     => Time: O(n*klogk)
     
+
 ```java
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {

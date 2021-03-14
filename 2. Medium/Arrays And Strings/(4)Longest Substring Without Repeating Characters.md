@@ -1,9 +1,14 @@
-
-
-Problem 4 in Top Interview Questions (medium)
+**Problem 4 in Top Interview Questions (medium)**
 
  Leetcode Problem 3: Longest Substring Without Repeating Characters
-     
+
+Problem Link: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
+Explanation: https://www.youtube.com/watch?v=ijIANdVFRR8&t=21s&ab_channel=CodeBrosIO
+
+
+
+
  Java Solution: 
     n = number of characters in string
     
@@ -11,6 +16,7 @@ Time and Space Complexity
     => Space: O(n)
     => Time: O(n)
     
+
 ```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {

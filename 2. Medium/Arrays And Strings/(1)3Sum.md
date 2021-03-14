@@ -1,13 +1,18 @@
+**Problem 1 in Top Interview Questions (medium)**
 
-
-Problem 1 in Top Interview Questions (medium)
 Leetcode Problem 15: 3Sum
-     
-     
+
+Problem Link:  https://leetcode.com/problems/3sum/
+
+Explanation: https://www.youtube.com/watch?v=Gj0BJ7OEYPY&t=7s&ab_channel=CodeBrosIO
+
+
+
  Java Solution: Left Right Pointer Method: 
      n = # elements in array
      Space: O(1)
      Time: O(n^2):
+
 ```java
  class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
