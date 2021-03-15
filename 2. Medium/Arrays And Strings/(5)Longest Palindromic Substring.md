@@ -4,7 +4,7 @@
 
 Problem Link: https://leetcode.com/problems/longest-palindromic-substring/
 
-Explanation: https://www.youtube.com/watch?v=n2LMuvFIr88&ab_channel=CodeBrosIO
+Explanation: https://www.youtube.com/watch?v=Ypfs_zNyOYA&ab_channel=CodeBrosIO
 
 
 
