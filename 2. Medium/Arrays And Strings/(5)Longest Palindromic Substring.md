@@ -2,9 +2,9 @@
 
  Leetcode Problem 5: Longest Palindromic Substring 
 
-Problem Link:  https://leetcode.com/problems/longest-palindromic-substring/
+Problem Link: https://leetcode.com/problems/longest-palindromic-substring/
 
-Explanation: 
+Explanation: https://www.youtube.com/watch?v=n2LMuvFIr88&ab_channel=CodeBrosIO
 
 
 
