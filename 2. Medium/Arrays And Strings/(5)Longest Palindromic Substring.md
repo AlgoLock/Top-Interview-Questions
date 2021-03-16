@@ -4,7 +4,7 @@
 
 Problem Link:  https://leetcode.com/problems/longest-palindromic-substring/
 
-Explanation: 
+Explanation: https://www.youtube.com/watch?v=7KObdI_F6zs&ab_channel=CodeBrosIO
 
 
 
@@ -19,27 +19,30 @@ Time and Space Complexity
 class Solution {
     public String longestPalindrome(String s) {
         
-        char[] carr = s.toCharArray();
-        String palinS = "";
+        char [] carr = s.toCharArray();
         int len = carr.length;
         int left, right;
-        for(int curr = 0; curr < len; curr++){
-            left = curr-1;
-            right = curr+1;
+        String palinS = ""; 
         
-            while(right < len && carr[curr] == carr[right]){ right++;}
+        for(int curr = 0; curr < len; curr++){
+            left = curr -1;
+            right = curr +1;
+            while(right < len && carr[right] == carr[curr]){ right++; }
             
-            while(left >= 0 && right < len){
-                if(carr[left] != carr[right]){ break; }
+            while(left >=0 && right < len){
+                if(carr[left] != carr[right]){
+                    break;
+                }
                 left--;
                 right++;
             }
             left++;
-            if((right-left) > palinS.length()){
+            if(right -left > palinS.length()){
                 palinS = s.substring(left, right);
             }
         }
         return palinS;
+
     }
 }
 ```
