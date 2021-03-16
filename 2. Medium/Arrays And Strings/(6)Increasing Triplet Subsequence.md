@@ -16,7 +16,6 @@ Time and Space Complexity
     => Time: O(n)
 
 ```java
-class Solution {
  class Solution {
     public boolean increasingTriplet(int[] nums) {
         
