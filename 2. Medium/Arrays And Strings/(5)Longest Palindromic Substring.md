@@ -3,12 +3,7 @@
  Leetcode Problem 5: Longest Palindromic Substring 
 
 Problem Link: https://leetcode.com/problems/longest-palindromic-substring/
-
-<<<<<<< HEAD
-Explanation: https://www.youtube.com/watch?v=7KObdI_F6zs&ab_channel=CodeBrosIO
-=======
 Explanation: https://www.youtube.com/watch?v=Ypfs_zNyOYA&ab_channel=CodeBrosIO
->>>>>>> ade504aa3af7cff363845a37968795ffaa833d17
 
 
 
