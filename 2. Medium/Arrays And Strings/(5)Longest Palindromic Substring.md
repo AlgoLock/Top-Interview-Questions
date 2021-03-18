@@ -3,8 +3,8 @@
  Leetcode Problem 5: Longest Palindromic Substring 
 
 Problem Link: https://leetcode.com/problems/longest-palindromic-substring/
-Explanation: https://www.youtube.com/watch?v=Ypfs_zNyOYA&ab_channel=CodeBrosIO
 
+Explanation: https://www.youtube.com/watch?v=Ypfs_zNyOYA&ab_channel=CodeBrosIO
 
 
  Java Solution: 
