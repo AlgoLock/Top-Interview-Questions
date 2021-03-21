@@ -4,7 +4,7 @@
 
 Problem Link:  https://leetcode.com/problems/increasing-triplet-subsequence/
 
-Explanation: 
+Explanation: https://www.youtube.com/watch?v=rHeA_insRro&list=PLvRP22vSRCvIQfawmmsBvcrR9d90YfSJi&index=6&ab_channel=CodeBrosIO
 
 
 
