@@ -1,4 +1,4 @@
-**Problem 1 in Top Interview Questions (medium)**
+**Problem 1 in Top Interview Questions (medium): Arrays and Strings**
 
 Leetcode Problem 15: 3Sum
 

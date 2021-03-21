@@ -1,4 +1,4 @@
-**Problem 3 in Top Interview Questions (medium)**
+**Problem 3 in Top Interview Questions (medium): Arrays and Strings**
 
 Leetcode Problem 49: Group Anagrams
 

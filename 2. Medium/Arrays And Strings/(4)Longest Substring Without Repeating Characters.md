@@ -1,4 +1,4 @@
-**Problem 4 in Top Interview Questions (medium)**
+**Problem 4 in Top Interview Questions (medium): Arrays and Strings**
 
  Leetcode Problem 3: Longest Substring Without Repeating Characters
 

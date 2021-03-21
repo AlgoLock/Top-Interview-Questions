@@ -1,4 +1,4 @@
-**Problem 2 in Top Interview Questions (medium)**
+**Problem 2 in Top Interview Questions (medium): Arrays and Strings**
 
  Leetcode Problem 73: Set Matrix Zeros
 
