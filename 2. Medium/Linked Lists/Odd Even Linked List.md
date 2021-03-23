@@ -1,0 +1,47 @@
+**Problem 2 in Top Interview Questions (medium): Linked Lists**
+
+Leetcode Problem 328: . Odd Even Linked List
+
+Problem Link:  https://leetcode.com/problems/odd-even-linked-list/
+
+Explanation:
+
+
+
+ Java Solution: 
+     n = # elements in linked list
+
+​     Space: O(n)
+​     Time: O(n)
+
+```java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode oddEvenList(ListNode head) {
+         if(head == null || head.next == null || head.next.next == null){ return head; }
+
+         ListNode odd = head;
+         ListNode even = head.next;
+         ListNode evenstart = even;
+        
+        while(even != null && even.next != null){
+            odd.next = even.next;
+            odd = odd.next;
+            even.next = odd.next;
+            even = even.next;
+        }
+        //set tail of odd LL the head of the even LL
+        odd.next = evenstart; 
+        return head;
+    }
+}
+```
