@@ -9,7 +9,9 @@ Explanation:
 
 
  Java Solution: 
-     n = # elements in l1         m = # elements in l2
+ 
+     n = # elements in l1         
+     m = # elements in l2
 
 ​     Space: O(n+m)
 ​     Time: O(max(n,m)):
